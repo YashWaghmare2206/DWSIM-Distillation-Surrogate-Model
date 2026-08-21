@@ -1,0 +1,31 @@
+{
+  "RandomForest": {
+    "n_estimators": 500,
+    "min_samples_leaf": 1,
+    "max_features": "log2",
+    "max_depth": 16
+  },
+  "XGBoost": {
+    "subsample": 0.7,
+    "n_estimators": 500,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "colsample_bytree": 1.0
+  },
+  "SVR": {
+    "estimator__gamma": "scale",
+    "estimator__epsilon": 0.01,
+    "estimator__C": 200
+  },
+  "ANN": {
+    "learning_rate_init": 0.01,
+    "hidden_layer_sizes": [
+      128,
+      64
+    ],
+    "alpha": 0.001
+  },
+  "PolynomialRegression": {
+    "degree": 2
+  }
+}

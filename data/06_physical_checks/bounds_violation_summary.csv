@@ -1,0 +1,6 @@
+model,x_D_below_0,x_D_above_1,x_B_below_0,x_B_above_1,Q_C_negative,Q_R_negative,x_D_less_than_x_B
+RandomForest,0,0,0,0,0,0,0
+XGBoost,0,40,59,0,0,0,0
+SVR,0,82,70,0,0,0,0
+ANN,0,50,25,0,0,0,0
+PolynomialRegression,0,90,88,0,0,0,0
