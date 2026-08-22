@@ -1,6 +1,9 @@
 {
-  "x_D_benzene": "ANN",
-  "x_B_benzene": "ANN",
-  "Q_C": "PolynomialRegression",
-  "Q_R": "PolynomialRegression"
+  "per_target_best_model": {
+    "x_D_benzene": "ANN",
+    "x_B_benzene": "ANN",
+    "Q_C": "PolynomialRegression",
+    "Q_R": "PolynomialRegression"
+  },
+  "overall_best_model": "ANN"
 }

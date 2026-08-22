@@ -77,7 +77,7 @@ os.makedirs(
 
 output_file = os.path.join(
     flowsheet_dir,
-    "binary_distillation_generated.dwxmz"
+    "binary_distillation.dwxmz"
 )
 
 print("\nOutput flowsheet:")
